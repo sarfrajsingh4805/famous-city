@@ -108,3 +108,15 @@ iframe {
 	margin: 0 auto;
 	width: 90%;
 }
+
+/* ID selector - Quote section styling */
+#quote {
+	border: 0.2rem solid #3498db;
+	box-shadow: 0.2rem 0.2rem 0.5rem #00000064;
+	width: 85%;
+	font-family: 'Georgia', serif;
+	font-style: italic;
+	color: #2c3e50;
+	padding: 1.5rem;
+	margin: 2rem auto;
+}
