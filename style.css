@@ -180,3 +180,44 @@ tr:nth-child(even) {
 tr:hover {
 	background-color: #b3b3b3;
 }
+
+/* Class selector - Form label styling */
+.form-label {
+	font-variant: small-caps;
+	font-weight: bold;
+	color: #2c3e50;
+}
+
+/* Class selector - Form control styling */
+.form-control {
+	padding: 0.8rem;
+	border: 0.1rem solid #bdc3c7;
+	border-radius: 0.5rem;
+	width: 13rem;
+	margin-bottom: 0.5rem;
+}
+
+/* Responsive Design - Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+
+	/* Decrease html font size */
+	html {
+		font-size: 16px;
+	}
+
+	/* Removed floats and adjust layout */
+	main,
+	aside {
+		float: none;
+		width: 100%;
+		padding: 1rem;
+	}
+
+	table {
+		font-size: 0.9rem;
+	}
+
+	.form-control {
+		width: 20rem;
+	}
+}
