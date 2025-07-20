@@ -120,3 +120,63 @@ iframe {
 	padding: 1.5rem;
 	margin: 2rem auto;
 }
+
+/* Remove underline and set color */
+a {
+	text-decoration: none;
+	color: #474a49;
+}
+
+/* Pseudo-class selector - Visited link color */
+a:visited {
+	color: #9b59b6;
+}
+
+/* Pseudo-class selector - Hover state with underline */
+a:hover {
+	text-decoration: underline;
+	color: #e74c3c;
+}
+
+/* Pseudo-class selector - Active link color */
+a:active {
+	color: #f39c12;
+}
+
+/* List Styling */
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+/* Table Styling */
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 2rem;
+}
+
+th {
+	text-align: left;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: white;
+	background-color: #34495e;
+	padding: 1rem;
+	border: 0.1rem solid #2c3e50;
+}
+
+td {
+	padding: 0.5rem;
+	border: 0.1rem solid #bdc3c7;
+}
+
+/* Pseudo-class selector - Alternate row colors */
+tr:nth-child(even) {
+	background-color: #cfcfcf;
+}
+
+/* Pseudo-class selector - Row hover highlight */
+tr:hover {
+	background-color: #b3b3b3;
+}
