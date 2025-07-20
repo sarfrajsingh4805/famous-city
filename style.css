@@ -39,4 +39,22 @@ aside {
 footer {
 	/* Clear floats */
 	clear: both;
+	/* Decrease font size */
+	font-size: 0.8rem;
+	/* Gradient background */
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	/* Center text */
+	text-align: center;
+	color: white;
+}
+
+header {
+	/* Increase font size */
+	font-size: 2.5rem;
+	color: #2c3e50;
+	/* Gradient background */
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	/* Center text */
+	text-align: center;
+	color: white;
 }
