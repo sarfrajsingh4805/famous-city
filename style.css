@@ -19,3 +19,24 @@ body {
 	/* Background color for the page */
 	background-color: #f3f3f3;
 }
+
+/* Page Layout using Floats - Main and Aside positioning */
+main {
+	float: left;
+	/* Adjusted width to accommodate box model for 70/30 layout */
+	width: 65%;
+	padding: 1.5rem;
+}
+
+aside {
+	float: right;
+	/* Adjusted width to accommodate box model for 70/30 layout */
+	width: 25%;
+	padding: 1.5rem;
+}
+
+/* Footer with clear property to ensure proper layout */
+footer {
+	/* Clear floats */
+	clear: both;
+}
